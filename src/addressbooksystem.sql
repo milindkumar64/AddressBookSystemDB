@@ -51,6 +51,7 @@ update address_book set relationship='Profession' where id=4;
 update address_book set relationship='Profession' where id=5;
 update address_book set relationship='Family' where id=6;
 update address_book set relationship='Family' where id=7;	
-
 select * from address_book;
 
+---- UC10 ----
+select relationship, count(relationship) from address_book group by relationship;
