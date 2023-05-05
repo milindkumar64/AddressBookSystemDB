@@ -31,6 +31,9 @@ update address_book set address='Whitefield', city='BLR', email='milind@gmail.co
 ---- UC5 ----
 delete from address_book where first_name='Saras';
 
+---- UC6 ----
 Select first_name from address_book where city='Delhi';
 
+---- UC7 ----
 
+select state, count(state) from address_book group by state;	
