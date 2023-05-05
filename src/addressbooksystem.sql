@@ -24,4 +24,7 @@ insert into address_book(first_name,last_name,address,city,state,zip,phone_numbe
 insert into address_book(first_name,last_name,address,city,state,zip,phone_number,email) values 
 ('Nitin','Gadkari','LIC chock','Nagpur','MP',145789,741443202,'nitin@govin.com');
 
+---- UC4 ----
+
+update address_book set address='Whitefield', city='BLR', email='milind@gmail.com' where first_name='Saras';
 Select * from address_book;
