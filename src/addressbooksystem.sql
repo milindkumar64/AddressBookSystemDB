@@ -3,7 +3,7 @@ show databases;
 create database address_book_service;
 use address_book_services
 
----- UC2 ----
+-- UC2 ----
 create table address_book(id int not null auto_increment, first_name varchar(50) not null, 
 last_name varchar(50) not null, address varchar(200) not null, city varchar(50) not null, 
 state varchar(50) not null, zip int not null,  phone_number long not null, 
@@ -36,4 +36,9 @@ Select first_name from address_book where city='Delhi';
 
 ---- UC7 ----
 
-select state, count(state) from address_book group by state;	
+select state, count(state) from address_book group by state;
+select * from address_book;
+
+----- UC8 ----
+
+select * from address_book where city = 'jaipur' order by city;	
