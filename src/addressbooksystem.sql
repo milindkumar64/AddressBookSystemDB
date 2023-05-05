@@ -41,4 +41,16 @@ select * from address_book;
 
 ----- UC8 ----
 
-select * from address_book where city = 'jaipur' order by city;	
+select * from address_book where city = 'jaipur' order by city;
+
+---- UC9 ----
+alter table address_book add relationship varchar(30) not null after last_name;
+update address_book set relationship='Friend' where id=2;
+update address_book set relationship='Friend' where id=3;
+update address_book set relationship='Profession' where id=4;
+update address_book set relationship='Profession' where id=5;
+update address_book set relationship='Family' where id=6;
+update address_book set relationship='Family' where id=7;	
+
+select * from address_book;
+
