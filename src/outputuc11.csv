@@ -1,0 +1,7 @@
+id,first_name,last_name,relationship,address,city,state,zip,phone_number,email
+2,Narendra,Modi,Friend,"7 RCR Road",Delhi,Delhi,123456,123454568,pmmodi@govin.com
+3,Yogi,adityanath,Friend,"CM awash",Lucknow,UP,654321,767878089,cmup@govup.com
+4,Nitin,Gadkari,Profession,"LIC chock",Nagpur,MP,145789,741443202,nitin@govin.com
+5,Ramu,Kaka,Profession,jaipur,jaipur,RJ,55453,846888457,NA
+6,Drashan,Shaliyan,Family,"church Gate",Mumbai,MH,555653,84684457,NA
+7,Mohit,Purohit,Family,jaipur,jaipur,RJ,555653,846857,NA

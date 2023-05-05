@@ -55,3 +55,9 @@ select * from address_book;
 
 ---- UC10 ----
 select relationship, count(relationship) from address_book group by relationship;
+
+---- UC11 ----
+insert into address_book(first_name,last_name,type,address,city,state,zip,phone_number,email) values 
+('Mahesh','Babu','Friend','Deccan','Hyderabad','TS',465656,66660967,'mahesh@tollywood.com');
+insert into address_book(first_name,last_name,type,address,city,state,zip,phone_number,email) values 
+('Nayantara','NA','Friend','Gachibowli','Hyderabad','TS',455597,878866865,'9tara@gmail.com');
